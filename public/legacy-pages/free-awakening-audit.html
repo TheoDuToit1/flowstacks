@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Awakening Audit - FlowStack.dev</title>
+    <meta name="description" content="Discover your Business Chaos Score with our free interactive audit. Get personalized recommendations to transform your business from chaos to automated systems.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'awakening-red': '#dc2626',
+                        'flow-blue': '#1e40af',
+                        'flow-teal': '#0d9488',
+                        'flow-purple': '#7c3aed',
+                        'flow-orange': '#ea580c',
+                        'chaos-gray': '#374151',
+                        'system-green': '#059669'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'sora': ['Sora', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-inter">
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="flowstack.html" class="text-2xl font-bold font-sora bg-gradient-to-r from-flow-blue to-flow-teal bg-clip-text text-transparent">
+                        FlowStack.dev
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="flowstack.html" class="text-gray-700 hover:text-flow-blue transition-colors">Home</a>
+                    <a href="awakening-stories.html" class="text-gray-700 hover:text-flow-blue transition-colors">Stories</a>
+                    <a href="the-system.html" class="text-gray-700 hover:text-flow-blue transition-colors">The System</a>
+                    <a href="work-with-us.html" class="text-gray-700 hover:text-flow-blue transition-colors">Work With Us</a>
+                    <a href="about-the-awakening.html" class="text-gray-700 hover:text-flow-blue transition-colors">About</a>
+                    <a href="free-awakening-audit.html" class="text-flow-blue font-medium">Free Audit</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-awakening-red via-flow-orange to-flow-purple py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 font-sora">
+                Free <span class="text-yellow-300">Awakening</span> Audit
+            </h1>
+            <p class="text-xl md:text-2xl text-orange-100 mb-8 leading-relaxed">
+                Discover your Business Chaos Score and get personalized recommendations to transform your operations.
+            </p>
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 inline-block">
+                <p class="text-white font-medium text-lg">
+                    ⚡ Takes 3 minutes • Get instant results • 100% Free
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audit Introduction -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-sora">
+                    How <span class="text-awakening-red">Chaotic</span> Is Your Business?
+                </h2>
+                <p class="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                    Most business owners are running on hope instead of systems. This audit will show you exactly where you stand and what to do about it.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Chaos Level: High -->
+                <div class="bg-gradient-to-br from-awakening-red/10 to-flow-orange/10 rounded-2xl p-6 text-center">
+                    <div class="w-16 h-16 bg-awakening-red/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🔥</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-awakening-red mb-3 font-sora">High Chaos</h3>
+                    <p class="text-gray-600 text-sm">
+                        Everything is urgent, nothing is systematic. You're the bottleneck in every process.
+                    </p>
+                </div>
+
+                <!-- Chaos Level: Medium -->
+                <div class="bg-gradient-to-br from-flow-orange/10 to-flow-purple/10 rounded-2xl p-6 text-center">
+                    <div class="w-16 h-16 bg-flow-orange/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">⚠️</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-flow-orange mb-3 font-sora">Medium Chaos</h3>
+                    <p class="text-gray-600 text-sm">
+                        Some processes work, others don't. Inconsistent results and frequent firefighting.
+                    </p>
+                </div>
+
+                <!-- Chaos Level: Low -->
+                <div class="bg-gradient-to-br from-system-green/10 to-flow-teal/10 rounded-2xl p-6 text-center">
+                    <div class="w-16 h-16 bg-system-green/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">✅</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-system-green mb-3 font-sora">Low Chaos</h3>
+                    <p class="text-gray-600 text-sm">
+                        Most things run smoothly. You have systems, but there's room for optimization.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button id="startAuditBtn" class="bg-gradient-to-r from-flow-blue to-flow-teal text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                    Start Your Free Audit Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audit Questions -->
+    <section id="auditSection" class="py-20 bg-gray-50 hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl p-8 shadow-xl">
+                <!-- Progress Bar -->
+                <div class="mb-8">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm font-medium text-gray-700">Progress</span>
+                        <span id="progressText" class="text-sm font-medium text-flow-blue">1 of 12</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div id="progressBar" class="bg-gradient-to-r from-flow-blue to-flow-teal h-2 rounded-full transition-all duration-300" style="width: 8.33%"></div>
+                    </div>
+                </div>
+
+                <!-- Question Container -->
+                <div id="questionContainer">
+                    <!-- Questions will be dynamically inserted here -->
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="flex justify-between mt-8">
+                    <button id="prevBtn" class="bg-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-400 transition-colors hidden">
+                        Previous
+                    </button>
+                    <button id="nextBtn" class="bg-gradient-to-r from-flow-blue to-flow-teal text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-200 ml-auto">
+                        Next Question
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="resultsSection" class="py-20 bg-white hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-sora">
+                    Your Business Chaos Score
+                </h2>
+            </div>
+
+            <!-- Score Display -->
+            <div id="scoreDisplay" class="text-center mb-12">
+                <!-- Score will be dynamically inserted -->
+            </div>
+
+            <!-- Recommendations -->
+            <div id="recommendationsContainer" class="mb-12">
+                <!-- Recommendations will be dynamically inserted -->
+            </div>
+
+            <!-- Next Steps -->
+            <div class="bg-gradient-to-br from-flow-blue via-flow-purple to-flow-teal rounded-2xl p-8 text-center text-white">
+                <h3 class="text-2xl font-bold mb-4 font-sora">Ready to Transform Your Business?</h3>
+                <p class="text-lg mb-6 text-blue-100">
+                    Based on your audit results, here's how FlowStack can help you move from chaos to systems.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="work-with-us.html" 
+                       class="bg-white text-flow-blue px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        Apply to Work With Us
+                    </a>
+                    <a href="the-system.html" 
+                       class="bg-white/10 backdrop-blur-sm text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/20 transition-colors">
+                        Learn About Our System
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-bold font-sora mb-4 bg-gradient-to-r from-flow-blue to-flow-teal bg-clip-text text-transparent">
+                        FlowStack.dev
+                    </h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Transforming business chaos into automated systems that work without you.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Pages</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="flowstack.html" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="awakening-stories.html" class="hover:text-white transition-colors">Stories</a></li>
+                        <li><a href="the-system.html" class="hover:text-white transition-colors">The System</a></li>
+                        <li><a href="work-with-us.html" class="hover:text-white transition-colors">Work With Us</a></li>
+                        <li><a href="about-the-awakening.html" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="free-awakening-audit.html" class="hover:text-white transition-colors">Free Audit</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>hello@flowstacks.dev</li>
+                        <li>Cape Town, South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 FlowStack.dev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Audit Questions Data
+        const auditQuestions = [
+            {
+                id: 1,
+                question: "How often do you work nights and weekends to keep up with your business?",
+                options: [
+                    { text: "Almost never - my business runs without me", score: 1 },
+                    { text: "Occasionally - only during busy periods", score: 2 },
+                    { text: "Regularly - most weeks I work extra hours", score: 3 },
+                    { text: "Constantly - I can't keep up any other way", score: 4 }
+                ]
+            },
+            {
+                id: 2,
+                question: "How many times per day do team members interrupt you with questions?",
+                options: [
+                    { text: "Rarely - they know what to do", score: 1 },
+                    { text: "2-3 times - mostly for important decisions", score: 2 },
+                    { text: "5-10 times - frequent questions and clarifications", score: 3 },
+                    { text: "Constantly - I'm always being asked something", score: 4 }
+                ]
+            },
+            {
+                id: 3,
+                question: "How often do important tasks fall through the cracks?",
+                options: [
+                    { text: "Never - everything is tracked and followed up", score: 1 },
+                    { text: "Rarely - maybe once a month", score: 2 },
+                    { text: "Sometimes - a few times per month", score: 3 },
+                    { text: "Frequently - things slip through regularly", score: 4 }
+                ]
+            },
+            {
+                id: 4,
+                question: "How much time do you spend on repetitive administrative tasks?",
+                options: [
+                    { text: "Almost none - everything is automated", score: 1 },
+                    { text: "1-2 hours per week", score: 2 },
+                    { text: "5-10 hours per week", score: 3 },
+                    { text: "More than 10 hours per week", score: 4 }
+                ]
+            },
+            {
+                id: 5,
+                question: "How long does it take to onboard a new client?",
+                options: [
+                    { text: "1-2 days with minimal involvement from me", score: 1 },
+                    { text: "3-5 days with some back-and-forth", score: 2 },
+                    { text: "1-2 weeks with lots of coordination", score: 3 },
+                    { text: "Weeks or months - it's always complicated", score: 4 }
+                ]
+            },
+            {
+                id: 6,
+                question: "How often do you miss deadlines or deliverables?",
+                options: [
+                    { text: "Never - everything is on track", score: 1 },
+                    { text: "Rarely - maybe once per quarter", score: 2 },
+                    { text: "Sometimes - a few times per quarter", score: 3 },
+                    { text: "Often - deadlines are more like suggestions", score: 4 }
+                ]
+            },
+            {
+                id: 7,
+                question: "How easy is it to find information about past projects or clients?",
+                options: [
+                    { text: "Very easy - everything is organized and searchable", score: 1 },
+                    { text: "Pretty easy - takes a few minutes to find", score: 2 },
+                    { text: "Difficult - requires digging through emails/files", score: 3 },
+                    { text: "Nearly impossible - information is scattered everywhere", score: 4 }
+                ]
+            },
+            {
+                id: 8,
+                question: "How consistent is the quality of work delivered to clients?",
+                options: [
+                    { text: "Very consistent - we have standardized processes", score: 1 },
+                    { text: "Mostly consistent - minor variations", score: 2 },
+                    { text: "Somewhat inconsistent - depends on who does the work", score: 3 },
+                    { text: "Very inconsistent - quality varies significantly", score: 4 }
+                ]
+            },
+            {
+                id: 9,
+                question: "How often do you have to chase clients for payments?",
+                options: [
+                    { text: "Never - payments are automated", score: 1 },
+                    { text: "Rarely - most clients pay on time", score: 2 },
+                    { text: "Sometimes - need to follow up regularly", score: 3 },
+                    { text: "Constantly - cash flow is always an issue", score: 4 }
+                ]
+            },
+            {
+                id: 10,
+                question: "How much time do you spend in meetings that could be emails?",
+                options: [
+                    { text: "Almost none - meetings are purposeful and efficient", score: 1 },
+                    { text: "1-2 hours per week", score: 2 },
+                    { text: "5-10 hours per week", score: 3 },
+                    { text: "More than 10 hours per week", score: 4 }
+                ]
+            },
+            {
+                id: 11,
+                question: "How confident are you that your business would run smoothly if you took a 2-week vacation?",
+                options: [
+                    { text: "Very confident - everything would run perfectly", score: 1 },
+                    { text: "Somewhat confident - minor issues might arise", score: 2 },
+                    { text: "Not very confident - there would be problems", score: 3 },
+                    { text: "Not confident at all - it would be chaos", score: 4 }
+                ]
+            },
+            {
+                id: 12,
+                question: "How often do you feel overwhelmed by your business operations?",
+                options: [
+                    { text: "Never - I feel in control", score: 1 },
+                    { text: "Rarely - only during very busy periods", score: 2 },
+                    { text: "Sometimes - a few times per month", score: 3 },
+                    { text: "Often - I feel overwhelmed most of the time", score: 4 }
+                ]
+            }
+        ];
+
+        // Audit State
+        let currentQuestion = 0;
+        let answers = [];
+        let totalScore = 0;
+
+        // DOM Elements
+        const startAuditBtn = document.getElementById('startAuditBtn');
+        const auditSection = document.getElementById('auditSection');
+        const resultsSection = document.getElementById('resultsSection');
+        const questionContainer = document.getElementById('questionContainer');
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        // Start Audit
+        startAuditBtn.addEventListener('click', function() {
+            document.querySelector('section').scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => {
+                auditSection.classList.remove('hidden');
+                showQuestion(0);
+            }, 500);
+        });
+
+        // Show Question
+        function showQuestion(index) {
+            const question = auditQuestions[index];
+            
+            questionContainer.innerHTML = `
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 font-sora">
+                        Question ${index + 1} of ${auditQuestions.length}
+                    </h3>
+                    <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                        ${question.question}
+                    </p>
+                    <div class="space-y-4">
+                        ${question.options.map((option, optionIndex) => `
+                            <label class="flex items-start p-4 border-2 border-gray-200 rounded-lg cursor-pointer hover:border-flow-blue hover:bg-flow-blue/5 transition-all duration-200 option-label">
+                                <input type="radio" name="question${question.id}" value="${option.score}" class="mt-1 mr-4 text-flow-blue focus:ring-flow-blue">
+                                <span class="text-gray-700 leading-relaxed">${option.text}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+
+            // Update progress
+            const progress = ((index + 1) / auditQuestions.length) * 100;
+            progressBar.style.width = `${progress}%`;
+            progressText.textContent = `${index + 1} of ${auditQuestions.length}`;
+
+            // Show/hide navigation buttons
+            prevBtn.classList.toggle('hidden', index === 0);
+            nextBtn.textContent = index === auditQuestions.length - 1 ? 'Get My Results' : 'Next Question';
+
+            // Add event listeners to radio buttons
+            const radioButtons = questionContainer.querySelectorAll('input[type="radio"]');
+            radioButtons.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    // Remove selected styling from all labels
+                    questionContainer.querySelectorAll('.option-label').forEach(label => {
+                        label.classList.remove('border-flow-blue', 'bg-flow-blue/10');
+                    });
+                    
+                    // Add selected styling to chosen label
+                    this.closest('.option-label').classList.add('border-flow-blue', 'bg-flow-blue/10');
+                    
+                    // Enable next button
+                    nextBtn.disabled = false;
+                    nextBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                });
+            });
+
+            // Disable next button initially
+            nextBtn.disabled = true;
+            nextBtn.classList.add('opacity-50', 'cursor-not-allowed');
+
+            // Restore previous answer if exists
+            if (answers[index]) {
+                const previousAnswer = questionContainer.querySelector(`input[value="${answers[index]}"]`);
+                if (previousAnswer) {
+                    previousAnswer.checked = true;
+                    previousAnswer.dispatchEvent(new Event('change'));
+                }
+            }
+        }
+
+        // Next Button
+        nextBtn.addEventListener('click', function() {
+            const selectedOption = questionContainer.querySelector('input[type="radio"]:checked');
+            if (!selectedOption) return;
+
+            // Save answer
+            answers[currentQuestion] = parseInt(selectedOption.value);
+
+            if (currentQuestion < auditQuestions.length - 1) {
+                currentQuestion++;
+                showQuestion(currentQuestion);
+            } else {
+                // Calculate and show results
+                calculateResults();
+            }
+        });
+
+        // Previous Button
+        prevBtn.addEventListener('click', function() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion(currentQuestion);
+            }
+        });
+
+        // Calculate Results
+        function calculateResults() {
+            totalScore = answers.reduce((sum, score) => sum + score, 0);
+            
+            auditSection.classList.add('hidden');
+            resultsSection.classList.remove('hidden');
+            
+            // Scroll to results
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+            
+            displayResults();
+        }
+
+        // Display Results
+        function displayResults() {
+            let chaosLevel, chaosColor, chaosIcon, chaosDescription, recommendations;
+
+            if (totalScore <= 18) {
+                chaosLevel = "Low Chaos";
+                chaosColor = "system-green";
+                chaosIcon = "✅";
+                chaosDescription = "Congratulations! Your business is running relatively smoothly. You have good systems in place, but there's always room for optimization.";
+                recommendations = [
+                    "Focus on advanced automation opportunities",
+                    "Implement predictive analytics for better decision making",
+                    "Create redundancy in your key systems",
+                    "Document and standardize your successful processes"
+                ];
+            } else if (totalScore <= 30) {
+                chaosLevel = "Medium Chaos";
+                chaosColor = "flow-orange";
+                chaosIcon = "⚠️";
+                chaosDescription = "Your business has some good systems, but there are significant gaps causing inefficiency and stress. You're likely firefighting more than you'd like.";
+                recommendations = [
+                    "Identify and automate your most time-consuming manual processes",
+                    "Implement proper project management and tracking systems",
+                    "Create standard operating procedures for common tasks",
+                    "Set up automated client communication workflows"
+                ];
+            } else {
+                chaosLevel = "High Chaos";
+                chaosColor = "awakening-red";
+                chaosIcon = "🔥";
+                chaosDescription = "Your business is running on hope rather than systems. You're likely overwhelmed, working long hours, and feeling like you can't keep up. The good news? You have the most to gain from systematic transformation.";
+                recommendations = [
+                    "Start with client onboarding automation - this will give you immediate relief",
+                    "Implement a proper CRM system to track all client interactions",
+                    "Create templates and checklists for your most common processes",
+                    "Set up automated invoicing and payment collection",
+                    "Establish clear communication channels and reduce interruptions"
+                ];
+            }
+
+            // Display score
+            document.getElementById('scoreDisplay').innerHTML = `
+                <div class="bg-gradient-to-br from-${chaosColor}/10 to-${chaosColor}/20 rounded-3xl p-12 mb-8">
+                    <div class="text-6xl mb-4">${chaosIcon}</div>
+                    <h3 class="text-4xl font-bold text-${chaosColor} mb-4 font-sora">${chaosLevel}</h3>
+                    <div class="text-6xl font-bold text-${chaosColor} mb-4">${totalScore}/48</div>
+                    <p class="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
+                        ${chaosDescription}
+                    </p>
+                </div>
+            `;
+
+            // Display recommendations
+            document.getElementById('recommendationsContainer').innerHTML = `
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 font-sora">
+                        Your Personalized Recommendations
+                    </h3>
+                    <ul class="space-y-4">
+                        ${recommendations.map(rec => `
+                            <li class="flex items-start">
+                                <span class="text-${chaosColor} mr-3 text-xl">•</span>
+                                <span class="text-gray-700 leading-relaxed">${rec}</span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The FlowStack System - How We Create Business Transformations</title>
+    <meta name="description" content="Discover the proprietary FlowStack Method - our 4-step system for transforming business chaos into automated systems that work without you.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'flow-blue': '#1e40af',
+                        'flow-purple': '#7c3aed',
+                        'flow-teal': '#0d9488',
+                        'flow-orange': '#ea580c',
+                        'awakening': '#dc2626',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'sora': ['Sora', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #dc2626 0%, #ea580c 50%, #7c3aed 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .awakening-glow {
+            box-shadow: 0 0 40px rgba(220, 38, 38, 0.2);
+        }
+        
+        .section-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        
+        .section-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-inter leading-relaxed">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-lg border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-gradient-to-r from-flow-blue to-flow-purple rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">F</span>
+                    </div>
+                    <span class="text-xl font-bold font-sora">FlowStack.dev</span>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="flowstack.html" class="text-gray-600 hover:text-flow-blue transition-colors">Home</a>
+                    <a href="awakening-stories.html" class="text-gray-600 hover:text-flow-blue transition-colors">Stories</a>
+                    <a href="the-system.html" class="text-flow-blue font-semibold">The System</a>
+                    <a href="work-with-us.html" class="text-gray-600 hover:text-flow-blue transition-colors">Work With Us</a>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <a href="#apply-system" class="bg-awakening text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition-all awakening-glow">
+                        Apply The System
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold font-sora mb-8 leading-tight">
+                The <span class="gradient-text">FlowStack</span> System
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto font-medium">
+                Our proprietary 4-step method for transforming business chaos into automated systems that work without you.
+            </p>
+            
+            <div class="bg-white/80 backdrop-blur-lg rounded-2xl p-8 max-w-3xl mx-auto border border-gray-200">
+                <p class="text-lg text-gray-700 mb-4">
+                    <strong class="text-flow-blue">This isn't theory.</strong> This is the exact system we've used to help 50+ business owners reclaim their time and scale without chaos.
+                </p>
+                <p class="text-lg text-gray-700">
+                    <strong class="text-awakening">Results:</strong> Average 20+ hours saved weekly, 300% efficiency gains, R2M+ in additional revenue generated.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Other Solutions Fail -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="section-reveal text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold font-sora mb-8">
+                    Why Other <span class="text-awakening">Solutions Fail</span>
+                </h2>
+            </div>
+
+            <div class="section-reveal grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-awakening rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-white text-2xl">🔧</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-awakening">Generic Tools</h3>
+                    <p class="text-gray-300">Off-the-shelf solutions that don't fit your specific chaos. You end up forcing your business into their box.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-awakening rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-white text-2xl">🎓</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-awakening">Theory-Heavy Courses</h3>
+                    <p class="text-gray-300">Endless modules about "best practices" but no actual system built for YOUR business.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-awakening rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-white text-2xl">💸</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-awakening">Expensive Consultants</h3>
+                    <p class="text-gray-300">They analyze your problems, write reports, then leave. You're still doing everything manually.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The 4-Step Method -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="section-reveal text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold font-sora mb-8">
+                    The <span class="gradient-text">FlowStack Method</span>
+                </h2>
+            </div>
+
+            <div class="space-y-16">
+                <!-- Step 1 -->
+                <div class="section-reveal grid md:grid-cols-2 gap-12 items-center">
+                    <div class="bg-gradient-to-br from-flow-blue/10 to-flow-purple/10 p-8 rounded-2xl border border-flow-blue">
+                        <div class="w-20 h-20 bg-gradient-to-r from-flow-blue to-flow-purple rounded-full flex items-center justify-center mb-6">
+                            <span class="text-white text-2xl font-bold">1</span>
+                        </div>
+                        <h3 class="text-3xl font-bold text-flow-blue mb-4">Chaos Audit</h3>
+                        <p class="text-lg text-gray-600 mb-6">We map every manual process, identify bottlenecks, and calculate exactly how much time and money your chaos is costing you.</p>
+                        
+                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-2">What We Uncover:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Time drains you didn't know existed</li>
+                                <li>• Revenue leaks in your current process</li>
+                                <li>• Bottlenecks that limit your growth</li>
+                                <li>• Tasks that could be automated today</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl p-8">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-6">Real Example: Sarah's Agency</h4>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center p-3 bg-white rounded-lg">
+                                <span class="text-gray-700">Client onboarding</span>
+                                <span class="font-bold text-awakening">8 hours/client</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 bg-white rounded-lg">
+                                <span class="text-gray-700">Follow-up sequences</span>
+                                <span class="font-bold text-awakening">Manual chaos</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 bg-white rounded-lg">
+                                <span class="text-gray-700">Project updates</span>
+                                <span class="font-bold text-awakening">12 hours/week</span>
+                            </div>
+                            <div class="border-t pt-4">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-lg font-bold text-gray-900">Total Weekly Waste:</span>
+                                    <span class="text-2xl font-bold text-awakening">20+ hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="section-reveal grid md:grid-cols-2 gap-12 items-center">
+                    <div class="bg-gray-50 rounded-2xl p-8 order-2 md:order-1">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-6">The FlowStack Blueprint</h4>
+                        <div class="space-y-4">
+                            <div class="p-4 bg-white rounded-lg border-l-4 border-flow-purple">
+                                <h5 class="font-bold text-flow-purple mb-2">Automation Layer</h5>
+                                <p class="text-sm text-gray-600">What can run without human intervention</p>
+                            </div>
+                            <div class="p-4 bg-white rounded-lg border-l-4 border-flow-teal">
+                                <h5 class="font-bold text-flow-teal mb-2">Decision Points</h5>
+                                <p class="text-sm text-gray-600">Where human judgment is actually needed</p>
+                            </div>
+                            <div class="p-4 bg-white rounded-lg border-l-4 border-flow-orange">
+                                <h5 class="font-bold text-flow-orange mb-2">Integration Points</h5>
+                                <p class="text-sm text-gray-600">How everything connects seamlessly</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-flow-purple/10 to-flow-teal/10 p-8 rounded-2xl border border-flow-purple order-1 md:order-2">
+                        <div class="w-20 h-20 bg-gradient-to-r from-flow-purple to-flow-teal rounded-full flex items-center justify-center mb-6">
+                            <span class="text-white text-2xl font-bold">2</span>
+                        </div>
+                        <h3 class="text-3xl font-bold text-flow-purple mb-4">System Design</h3>
+                        <p class="text-lg text-gray-600 mb-6">We design your custom system architecture—not generic templates, but a blueprint tailored to your specific chaos.</p>
+                        
+                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-2">What You Get:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Visual system architecture</li>
+                                <li>• Automation decision tree</li>
+                                <li>• Integration roadmap</li>
+                                <li>• ROI projections</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="section-reveal grid md:grid-cols-2 gap-12 items-center">
+                    <div class="bg-gradient-to-br from-flow-teal/10 to-flow-orange/10 p-8 rounded-2xl border border-flow-teal">
+                        <div class="w-20 h-20 bg-gradient-to-r from-flow-teal to-flow-orange rounded-full flex items-center justify-center mb-6">
+                            <span class="text-white text-2xl font-bold">3</span>
+                        </div>
+                        <h3 class="text-3xl font-bold text-flow-teal mb-4">Build & Automate</h3>
+                        <p class="text-lg text-gray-600 mb-6">We build your custom system using proven technologies and create the automations that will run your business.</p>
+                        
+                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-2">What We Build:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Custom web applications</li>
+                                <li>• Automated workflows</li>
+                                <li>• Integration connections</li>
+                                <li>• Smart notification systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-2xl p-8">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-6">Technology Stack</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="p-3 bg-white rounded-lg text-center">
+                                <div class="w-8 h-8 bg-flow-blue rounded mx-auto mb-2"></div>
+                                <span class="text-sm font-semibold">React/Next.js</span>
+                            </div>
+                            <div class="p-3 bg-white rounded-lg text-center">
+                                <div class="w-8 h-8 bg-flow-purple rounded mx-auto mb-2"></div>
+                                <span class="text-sm font-semibold">Node.js</span>
+                            </div>
+                            <div class="p-3 bg-white rounded-lg text-center">
+                                <div class="w-8 h-8 bg-flow-teal rounded mx-auto mb-2"></div>
+                                <span class="text-sm font-semibold">Supabase</span>
+                            </div>
+                            <div class="p-3 bg-white rounded-lg text-center">
+                                <div class="w-8 h-8 bg-flow-orange rounded mx-auto mb-2"></div>
+                                <span class="text-sm font-semibold">Zapier</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="section-reveal grid md:grid-cols-2 gap-12 items-center">
+                    <div class="bg-gray-50 rounded-2xl p-8 order-2 md:order-1">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-6">30-Day Launch Plan</h4>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 bg-flow-blue rounded-full flex items-center justify-center">
+                                    <span class="text-white text-sm font-bold">1</span>
+                                </div>
+                                <span class="text-gray-700">System deployment & testing</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 bg-flow-purple rounded-full flex items-center justify-center">
+                                    <span class="text-white text-sm font-bold">2</span>
+                                </div>
+                                <span class="text-gray-700">Team training & onboarding</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 bg-flow-teal rounded-full flex items-center justify-center">
+                                    <span class="text-white text-sm font-bold">3</span>
+                                </div>
+                                <span class="text-gray-700">Gradual process migration</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 bg-flow-orange rounded-full flex items-center justify-center">
+                                    <span class="text-white text-sm font-bold">4</span>
+                                </div>
+                                <span class="text-gray-700">Performance monitoring & optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-flow-orange/10 to-awakening/10 p-8 rounded-2xl border border-flow-orange order-1 md:order-2">
+                        <div class="w-20 h-20 bg-gradient-to-r from-flow-orange to-awakening rounded-full flex items-center justify-center mb-6">
+                            <span class="text-white text-2xl font-bold">4</span>
+                        </div>
+                        <h3 class="text-3xl font-bold text-flow-orange mb-4">Launch & Optimize</h3>
+                        <p class="text-lg text-gray-600 mb-6">We deploy your system, train your team, and optimize performance until you're running on autopilot.</p>
+                        
+                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-2">Launch Support:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• 30-day optimization period</li>
+                                <li>• Team training sessions</li>
+                                <li>• Performance monitoring</li>
+                                <li>• Ongoing support & updates</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="section-reveal text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold font-sora mb-8">
+                    What <span class="text-flow-teal">Results</span> Look Like
+                </h2>
+            </div>
+
+            <div class="section-reveal grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-gray-800 rounded-2xl">
+                    <div class="text-5xl font-bold text-flow-blue mb-4">20+</div>
+                    <div class="text-lg text-gray-300 mb-2">Hours Saved Weekly</div>
+                    <div class="text-sm text-gray-400">Average across all clients</div>
+                </div>
+
+                <div class="text-center p-6 bg-gray-800 rounded-2xl">
+                    <div class="text-5xl font-bold text-flow-purple mb-4">300%</div>
+                    <div class="text-lg text-gray-300 mb-2">Efficiency Increase</div>
+                    <div class="text-sm text-gray-400">Typical improvement in 60 days</div>
+                </div>
+
+                <div class="text-center p-6 bg-gray-800 rounded-2xl">
+                    <div class="text-5xl font-bold text-flow-teal mb-4">R2M+</div>
+                    <div class="text-lg text-gray-300 mb-2">Revenue Generated</div>
+                    <div class="text-sm text-gray-400">Additional revenue from automation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="apply-system" class="py-20 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="section-reveal text-center">
+                <h2 class="text-4xl md:text-6xl font-bold font-sora mb-8">
+                    Ready to Apply <span class="text-awakening">The System</span>?
+                </h2>
+                
+                <form class="max-w-2xl mx-auto space-y-6 mt-12">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full px-6 py-4 rounded-full text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-flow-blue/50">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full px-6 py-4 rounded-full text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-flow-blue/50">
+                    </div>
+                    <div>
+                        <textarea placeholder="Describe your current chaos - what's eating up your time?" rows="4" class="w-full px-6 py-4 rounded-2xl text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-flow-blue/50 resize-none"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full bg-awakening text-white px-8 py-6 rounded-full text-xl font-bold hover:bg-red-700 transition-all duration-300 awakening-glow">
+                            Apply The FlowStack System →
+                        </button>
+                    </div>
+                </form>
+
+                <p class="text-gray-400 mt-8">
+                    We'll audit your chaos and show you exactly what's possible.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Intersection Observer for section reveals
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, observerOptions);
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const revealElements = document.querySelectorAll('.section-reveal');
+            revealElements.forEach(el => observer.observe(el));
+
+            // Form functionality
+            const form = document.querySelector('form');
+            if (form) {
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    alert('🚀 System application received!\n\nWe\'ll audit your chaos and show you exactly what\'s possible within 48 hours.\n\nCheck your email for next steps.');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

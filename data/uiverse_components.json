@@ -1,0 +1,18 @@
+{
+  "scrapedAt": "2025-08-20T12:27:21.720Z",
+  "count": 1,
+  "requested": 1,
+  "attempted": 1,
+  "items": [
+    {
+      "url": "https://uiverse.io/hakemdamer222/funny-ape-73",
+      "id": "hakemdamer222-funny-ape-73",
+      "title": "Button by hakemdamer222 made with CSS | Uiverse.io",
+      "author": "hakemdamer222",
+      "category": null,
+      "tags": [],
+      "html": "button,\nbutton:focus {\n  font-size: 17px;\n  padding: 10px 25px;\n  border-radius: 0.7rem;\n  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\n  border: 2px solid rgb(50, 50, 50);\n  border-bottom: 5px solid rgb(50, 50, 50);\n  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);\n  transform: translate(0, -3px);\n  cursor: pointer;\n  transition: 0.2s;\n  transition-timing-function: linear;\n}\n\nbutton:active {\n  transform: translate(0, 0);\n  border-bottom: 2px solid rgb(50, 50, 50);\n}",
+      "css": "button,\nbutton:focus {\nfont-size: 17px;\npadding: 10px 25px;\nborder-radius: 0.7rem;\nbackground-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\nborder: 2px solid rgb(50, 50, 50);\nborder-bottom: 5px solid rgb(50, 50, 50);\nbox-shadow: 0px 1px 6px 0px rgb(158, 129, 254);\ntransform: translate(0, -3px);\ncursor: pointer;\ntransition: 0.2s;\ntransition-timing-function: linear;\n}\n\nbutton:active {\ntransform: translate(0, 0);\nborder-bottom: 2px solid rgb(50, 50, 50);\n}"
+    }
+  ]
+}

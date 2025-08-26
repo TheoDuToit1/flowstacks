@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowStack.dev - Site Navigation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'awakening-red': '#dc2626',
+                        'flow-blue': '#1e40af',
+                        'flow-teal': '#0d9488',
+                        'flow-purple': '#7c3aed',
+                        'flow-orange': '#ea580c',
+                        'system-green': '#059669'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'sora': ['Sora', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-inter">
+    <div class="min-h-screen flex items-center justify-center py-12 px-4">
+        <div class="max-w-4xl w-full">
+            <!-- Header -->
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold font-sora mb-4">
+                    <span class="bg-gradient-to-r from-flow-blue to-flow-teal bg-clip-text text-transparent">
+                        FlowStack.dev
+                    </span>
+                </h1>
+                <p class="text-xl text-gray-600">
+                    Direct access to all FlowStack pages
+                </p>
+            </div>
+
+            <!-- Navigation Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Homepage -->
+                <a href="flowstack.html" class="group bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:border-flow-blue transition-all duration-200">
+                    <div class="w-12 h-12 bg-gradient-to-br from-flow-blue to-flow-teal rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="text-white font-bold text-xl">🏠</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 font-sora">Homepage</h3>
+                    <p class="text-gray-600 text-sm">
+                        The emotional awakening experience - main entry point for prospects
+                    </p>
+                </a>
+
+                <!-- Awakening Stories -->
+                <a href="awakening-stories.html" class="group bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:border-flow-teal transition-all duration-200">
+                    <div class="w-12 h-12 bg-gradient-to-br from-flow-teal to-system-green rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="text-white font-bold text-xl">📖</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 font-sora">Awakening Stories</h3>
+                    <p class="text-gray-600 text-sm">
+                        Case studies and transformation stories with social proof
+                    </p>
+                </a>
+
+                <!-- The System -->
+                <a href="the-system.html" class="group bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:border-flow-purple transition-all duration-200">
+                    <div class="w-12 h-12 bg-gradient-to-br from-flow-purple to-flow-orange rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="text-white font-bold text-xl">⚙️</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 font-sora">The System</h3>
+                    <p class="text-gray-600 text-sm">
+                        Proprietary 4-step FlowStack method and methodology
+                    </p>
+                </a>
+
+                <!-- Work With Us -->
+                <a href="work-with-us.html" class="group bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:border-awakening-red transition-all duration-200">
+                    <div class="w-12 h-12 bg-gradient-to-br from-awakening-red to-flow-orange rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="text-white font-bold text-xl">🤝</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 font-sora">Work With Us</h3>
+                    <p class="text-gray-600 text-sm">
+                        Application process, investment levels, and qualification
+                    </p>
+                </a>
+
+                <!-- About the Awakening -->
+                <a href="about-the-awakening.html" class="group bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:border-system-green transition-all duration-200">
+                    <div class="w-12 h-12 bg-gradient-to-br from-system-green to-flow-teal rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="text-white font-bold text-xl">👤</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 font-sora">About the Awakening</h3>
+                    <p class="text-gray-600 text-sm">
+                        Founder story, mission, and team behind FlowStack
+                    </p>
+                </a>
+
+                <!-- Free Awakening Audit -->
+                <a href="free-awakening-audit.html" class="group bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:border-flow-blue transition-all duration-200">
+                    <div class="w-12 h-12 bg-gradient-to-br from-flow-blue to-flow-purple rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="text-white font-bold text-xl">📊</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 font-sora">Free Awakening Audit</h3>
+                    <p class="text-gray-600 text-sm">
+                        Interactive lead magnet - Business Chaos Score assessment
+                    </p>
+                </a>
+            </div>
+
+            <!-- Quick Access Section -->
+            <div class="mt-12 text-center">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 font-sora">Quick Access</h2>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="the-system.html" class="bg-gradient-to-r from-flow-purple to-flow-orange text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                        Go to The System →
+                    </a>
+                    <a href="work-with-us.html" class="bg-gradient-to-r from-flow-blue to-flow-teal text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                        Apply Now →
+                    </a>
+                    <a href="free-awakening-audit.html" class="bg-gradient-to-r from-awakening-red to-flow-orange text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                        Take Free Audit →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Original FunnelWorks -->
+            <div class="mt-12 pt-8 border-t border-gray-200 text-center">
+                <h3 class="text-lg font-semibold text-gray-700 mb-4">Original FunnelWorks Site</h3>
+                <a href="index.html" class="text-flow-blue hover:text-flow-teal font-medium">
+                    View Original FunnelWorks Homepage →
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add hover effects and smooth transitions
+        document.querySelectorAll('a[href$=".html"]').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px)';
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>

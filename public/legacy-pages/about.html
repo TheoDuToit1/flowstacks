@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FunnelWorks | Cape Town's Premier App Development Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-blue': '#00D4FF',
+                        'neon-purple': '#8B5CF6',
+                        'neon-pink': '#FF006E',
+                        'neon-green': '#00FF88',
+                    },
+                    fontFamily: {
+                        'sora': ['Sora', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #00D4FF 0%, #8B5CF6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 font-inter">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-gradient-to-r from-neon-blue to-neon-purple rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">F</span>
+                    </div>
+                    <span class="text-xl font-bold font-sora text-gray-900 dark:text-white">FunnelWorks</span>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 dark:text-gray-300 hover:text-neon-blue transition-colors">Home</a>
+                    <a href="services.html" class="text-gray-600 dark:text-gray-300 hover:text-neon-blue transition-colors">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 dark:text-gray-300 hover:text-neon-blue transition-colors">Portfolio</a>
+                    <a href="about.html" class="text-neon-blue font-semibold">About</a>
+                    <a href="contact.html" class="text-gray-600 dark:text-gray-300 hover:text-neon-blue transition-colors">Contact</a>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <button class="dark-mode-toggle p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                        <svg class="w-5 h-5 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                        </svg>
+                    </button>
+                    <a href="#book-call" class="bg-gradient-to-r from-neon-blue to-neon-purple text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all">
+                        Book Discovery Call
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-6xl font-bold font-sora mb-6">
+                    About <span class="gradient-text">FunnelWorks</span>
+                </h1>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    Cape Town's premier mobile app development studio, transforming innovative ideas into powerful digital solutions that drive business growth.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold font-sora mb-6 text-gray-900 dark:text-white">
+                        Our <span class="gradient-text">Mission</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                        We believe every business deserves a mobile app that converts. Our mission is to bridge the gap between innovative ideas and market-ready solutions that drive real business results.
+                    </p>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">
+                        From startups to enterprises, we craft conversion-optimized mobile experiences that turn users into loyal customers and ideas into profitable ventures.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-neon-blue/10 to-neon-purple/10 rounded-2xl p-8">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-neon-blue mb-2">50+</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-300">Apps Delivered</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-neon-purple mb-2">95%</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-300">Client Satisfaction</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-neon-pink mb-2">2.5M+</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-300">Downloads</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-neon-green mb-2">24/7</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-300">Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold font-sora mb-6">
+                    Meet Our <span class="gradient-text">Team</span>
+                </h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    A passionate team of developers, designers, and strategists dedicated to creating exceptional digital experiences.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-32 h-32 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <span class="text-white text-2xl font-bold">JD</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">John Doe</h3>
+                    <p class="text-neon-blue font-semibold mb-4">CEO & Lead Developer</p>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">10+ years building mobile apps for Fortune 500 companies and innovative startups.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-32 h-32 bg-gradient-to-r from-neon-purple to-neon-pink rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <span class="text-white text-2xl font-bold">JS</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Jane Smith</h3>
+                    <p class="text-neon-purple font-semibold mb-4">Head of Design</p>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Award-winning UX/UI designer specializing in conversion-optimized mobile experiences.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-32 h-32 bg-gradient-to-r from-neon-pink to-neon-green rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <span class="text-white text-2xl font-bold">MW</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Mike Wilson</h3>
+                    <p class="text-neon-pink font-semibold mb-4">Technical Director</p>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Full-stack architect with expertise in scalable mobile and web platform development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold font-sora mb-6">
+                    Our <span class="gradient-text">Values</span>
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-gradient-to-r from-neon-blue to-neon-purple rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">Innovation First</h3>
+                    <p class="text-gray-600 dark:text-gray-300">We stay ahead of technology trends to deliver cutting-edge solutions that give our clients a competitive advantage.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-gradient-to-r from-neon-purple to-neon-pink rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">Client Success</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Your success is our success. We're committed to delivering solutions that drive real business results and exceed expectations.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-gradient-to-r from-neon-pink to-neon-green rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">Quality Excellence</h3>
+                    <p class="text-gray-600 dark:text-gray-300">We maintain the highest standards in code quality, design, and user experience to ensure long-term success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-neon-blue via-neon-purple to-neon-pink">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold font-sora text-white mb-6">
+                Ready to Work Together?
+            </h2>
+            <p class="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+                Let's discuss how we can help transform your ideas into successful mobile apps and digital platforms.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#book-call" class="bg-white text-neon-blue px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all">
+                    Book Discovery Call
+                </a>
+                <a href="contact.html" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-neon-blue transition-all">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div id="whatsapp-float" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg cursor-pointer transition-all duration-300 hover:scale-110">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            setupButtonHandlers();
+            setupWhatsAppFloat();
+            setupDarkModeToggle();
+        });
+
+        function setupButtonHandlers() {
+            const bookCallButtons = document.querySelectorAll('[href="#book-call"]');
+            bookCallButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    alert('🚀 Let\'s discuss your project!\n\nSchedule a discovery call to learn how FunnelWorks can help transform your ideas into successful mobile apps.');
+                });
+            });
+        }
+
+        function setupWhatsAppFloat() {
+            const whatsappBtn = document.getElementById('whatsapp-float');
+            if (whatsappBtn) {
+                whatsappBtn.addEventListener('click', () => {
+                    const message = encodeURIComponent('Hi FunnelWorks! I\'d like to learn more about your team and how you can help with my project.');
+                    const whatsappUrl = `https://wa.me/27123456789?text=${message}`;
+                    window.open(whatsappUrl, '_blank');
+                });
+            }
+        }
+
+        function setupDarkModeToggle() {
+            const darkModeBtn = document.querySelector('.dark-mode-toggle');
+            if (darkModeBtn) {
+                darkModeBtn.addEventListener('click', () => {
+                    document.documentElement.classList.toggle('dark');
+                    const isDark = document.documentElement.classList.contains('dark');
+                    localStorage.setItem('darkMode', isDark);
+                });
+
+                const savedDarkMode = localStorage.getItem('darkMode');
+                if (savedDarkMode === 'true') {
+                    document.documentElement.classList.add('dark');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
